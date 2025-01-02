@@ -1,8 +1,12 @@
 """ Hello World """
 
+def hello_world(city):
+    """ hellow_world """
+    print(f'Hellow World from {city}')
+
 def main():
     """ main """
-    print("Hello World!")
+    hello_world('NYC')
 
 
 main()
